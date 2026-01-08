@@ -3,15 +3,16 @@
 import React, { useState } from 'react'
 
 function FormHandler() {
+  const [input, setInput] = useState('')
   const [name, setName] = useState('none')
 
   function handleChange(e) {
-    setName(e.target.value)
+    setInput(e.target.value)
   }
 
   function handleSubmit(e) {
     e.preventDefault()
-    console.log(name)
+    setName(input)
   }
 
   return (
