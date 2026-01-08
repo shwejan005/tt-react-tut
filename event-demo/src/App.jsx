@@ -2,6 +2,7 @@ import React from 'react'
 import EventDemo from './components/EventDemo'
 import Counter from './components/Counter'
 import FormHandler from './components/FormHandler'
+import StudentInfo from './components/StudentInfo'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <EventDemo />
       <Counter />
       <FormHandler />
+      <StudentInfo />
     </div>
   )
 }
